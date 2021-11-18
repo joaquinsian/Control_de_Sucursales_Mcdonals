@@ -1,0 +1,22 @@
+.Login-form-container{
+    width: 400px;
+    padding-left: 70px;
+    padding-top: 150px;
+}
+
+.Login-ima-container{
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 750px;
+    height: 100vh;
+} 
+.logo{
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    right: 150px;
+
+    
+}
