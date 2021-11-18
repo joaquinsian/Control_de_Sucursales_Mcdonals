@@ -1,0 +1,16 @@
+.table{
+    width: 80%;
+    margin: 50px;
+    margin-left: 100px;
+    background-color: yellow;
+}
+.buscar{
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+}
+.container-products{
+    background-color: yellow;
+    height: 100vh;
+}
+ 

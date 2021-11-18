@@ -1,5 +1,5 @@
 .Login-form-container{
-    width: 400px;
+    width: 30%;
     padding-left: 70px;
     padding-top: 150px;
 }
@@ -7,11 +7,11 @@
 .Login-ima-container{
     background-color: red;
     position: absolute;
-    top: 0px;
+    top: 0px; 
     right: 0;
-    width: 750px;
+    width: 60%;
     height: 100vh;
-} 
+}  
 .logo{
     width: 300px;
     position: absolute;

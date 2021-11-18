@@ -1,0 +1,20 @@
+
+.Container-table__products{
+  width: 80%;
+  height: 50%;
+  top: 50px;
+ 
+}
+.navbar{
+background-image: url(../img/nvar.png);
+height: 70px;
+}
+.container-fluid{
+  padding-right: 10%;
+
+}
+.btn{
+background-color: #F1C40F;
+color: red ;
+font-family: 'Staatliches', cursive;
+}
