@@ -1,35 +1,215 @@
 <body>
-    <div class="container-products">
-      <div class="buscar">
-        <h1>
-          buscar
-        </h1>
+  <div class="container-products">
+    <!-- Button trigger modal -->
+    <button
+      type="button"
+      class="boton-agregar"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      +
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Agregar Producto</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#Id</th>
-                <th scope="col">Nombre del Producto</th>
-                <th scope="col">Nombre del proveedor</th>
-                <th scope="col">Stock</th>
-                <th scope="col">enviar a sucursal</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-    
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-    
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-    
-    
-              </tr>
-            </tbody>
-          </table>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Nombre del Producto</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Nombre del Proveedor</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Agregar cantidad (Stock)</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Cancelar
+              </button>
+              <button type="submit" class="btn btn-primary">Agregar</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    </body>
+
+    <p class="p-agregar">Agregar Producto</p>
+
+    <div class="buscar">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Buscar...."
+          aria-label="Buscar...."
+          aria-describedby="basic-addon2"
+        />
+        <span class="input-group-text" id="basic-addon2"
+          ><i class="bi bi-search"></i
+        ></span>
+      </div>
+    </div>
+
+    <div class="btn-group">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="exampleRadios"
+        id="exampleRadios1"
+        value="option1"
+        checked
+      />
+      <label class="form-check-label" for="exampleRadios1">
+        Nombre del producto
+      </label>
+    </div>
+    <div class="btn-group2">
+      <input
+        class="form-check-input"
+        type="radio"
+        name="exampleRadios"
+        id="exampleRadios2"
+        value="option2"
+      />
+      <label class="form-check-label" for="exampleRadios2"> Stock </label>
+    </div>
+    <table class="table table-bordered border border-dark">
+      <thead>
+        <tr class="titulos">
+          <th scope="col">#Id</th>
+          <th scope="col">Nombre del Producto</th>
+          <th scope="col">Nombre del proveedor</th>
+          <th scope="col">Stock</th>
+          <th scope="col">Enviar a sucursal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="button">
+            <button
+              type="button"
+              class="enviar"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal2"
+            >
+              +
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal2"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Enviar Productos
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Ingrese la cantidad</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          aria-describedby="emailHelp"
+                        />
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label"
+                          >Nombre de la sucursal</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="exampleInputEmail1"
+                          aria-describedby="emailHelp"
+                        />
+                      </div>
+
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cancelar
+                      </button>
+                      <button type="submit" class="btn btn-primary">
+                        Agregar
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>

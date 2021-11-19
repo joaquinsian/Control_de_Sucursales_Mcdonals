@@ -5,18 +5,17 @@
 }
 
 .Login-ima-container{
-    background-color: red;
+    background-color: #FF0000;
     position: absolute;
     top: 0px; 
     right: 0;
     width: 60%;
     height: 100vh;
 }  
+
 .logo{
     width: 300px;
     position: absolute;
     top: 150px;
     right: 150px;
-
-    
 }

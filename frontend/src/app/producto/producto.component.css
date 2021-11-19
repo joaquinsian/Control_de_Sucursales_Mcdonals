@@ -1,16 +1,86 @@
+.container-products{
+    background-image: url(/frontend/src/app/img/background.anime.jpg);
+    min-height: 90vh;
+    background-repeat: no-repeat; 
+   background-position: center center;
+   background-attachment: fixed;
+   background-size: cover;
+}
+.enviar{
+    height: 50px;
+    width: 70px;
+    background-image: url(/frontend/src/app/img/enviarProducto.png);
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    border-color: #F1C40F;
+    margin-left: 35%;
+}
+
+
 .table{
     width: 80%;
     margin: 50px;
-    margin-left: 100px;
-    background-color: yellow;
+    margin-left:10%;
+    margin-top: 5%;
+    background-color: #FFD54F;
 }
 .buscar{
-    width: 500px;
-    height: 100px;
-    background-color: yellow;
+    width: 100%;
+    height: 200px;
 }
-.container-products{
-    background-color: yellow;
-    height: 100vh;
+
+.table_table-bordered{
+    font-family: 'Staatliches', cursive;
 }
- 
+
+.titulos{
+    background-color: #EF5350 ;
+    
+}
+
+.boton-agregar{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+    background-color: #F1C40F;
+    border-color: #F1C40F;
+    
+}
+.p-agregar{
+    position: absolute;
+    left: 200px;
+    top: 255px;
+    
+}
+
+.input-group{
+
+    width: 400px;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+}
+.btn-group{
+    position: absolute;
+    left: 850px;
+    top: 250px;
+}
+.btn-group2{
+    position: absolute;
+    left: 850px;
+    top: 275px;
+}
+
+/*------------agregar producto y enviar productos------------------
+
+.modal-header{
+    background-color: #3F51B5;
+}
+
+.modal-body{
+    background-color: #90CAF9 ;
+}
+*/
